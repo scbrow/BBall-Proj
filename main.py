@@ -28,7 +28,7 @@ teamnum = {'ATL': 0, 'BOS': 1, 'BKN': 2, 'CHA': 3, 'CHI': 4, 'CLE': 5, 'DAL': 6,
 
 cbox = "lg_41"
 games = nba.populate()
-driver = webdriver.Firefox(executable_path=r'C:\Users\scott\Downloads\geckodriver-v0.24.0-win64\geckodriver.exe')
+driver = webdriver.Firefox(executable_path=r'geckodriver.exe')
 
 
 def connect():
