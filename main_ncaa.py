@@ -10,7 +10,7 @@ import random
 import ncaa
 
 cbox = "lg_4"
-driver = webdriver.Firefox(executable_path=r'C:\Users\scott\Downloads\geckodriver-v0.24.0-win64\geckodriver.exe')
+driver = webdriver.Firefox(executable_path=r'geckodriver.exe')
 
 
 def connect():
