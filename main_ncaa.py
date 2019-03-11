@@ -15,7 +15,7 @@ driver = webdriver.Firefox(executable_path=r'geckodriver.exe')
 
 def connect():
     driver.get("")
-    assert "SportsBook Login" in driver.title
+    assert "" in driver.title
     driver.find_element_by_id("Account").send_keys("")
     driver.find_element_by_id("Password").send_keys("" + Keys.RETURN)
     elem = WebDriverWait(driver, 3).until(ec.presence_of_element_located((By.LINK_TEXT, "Straight")))
