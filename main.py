@@ -33,7 +33,7 @@ driver = webdriver.Firefox(executable_path=r'geckodriver.exe')
 
 def connect():
     driver.get("")
-    assert "SportsBook Login" in driver.title
+    assert "" in driver.title
     elem = driver.find_element_by_id("Account")
     elem.clear()
     elem.send_keys("")
